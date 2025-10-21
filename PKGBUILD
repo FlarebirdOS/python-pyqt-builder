@@ -1,6 +1,6 @@
 pkgname=python-pyqt-builder
-pkgver=1.18.2
-pkgrel=1
+pkgver=1.19.0
+pkgrel=2
 pkgdesc="The PEP 517 compliant PyQt build system"
 arch=('x86_64')
 url="https://pypi.org/project/PyQt-builder"
@@ -18,7 +18,7 @@ makedepends=(
     'python-wheel'
 )
 source=(git+ssh://git@github.com/Python-PyQt/PyQt-builder#tag=${pkgver})
-sha256sums=(6060a9070b22078112ba0eb452e096bf9e149a740e15e6bd3a040c72b03db90a)
+sha256sums=(16eeb5531721fa8604ddf4c64fa0fc5d494181566536011b44a08d88dc9e6156)
 
 build() {
     cd PyQt-builder
